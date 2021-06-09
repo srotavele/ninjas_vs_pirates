@@ -21,4 +21,5 @@ class ZombieNinja(Ninja):
 
     def bite(self, pirate):
         pirate.health -= 50
+        print("BRRRRAAAAIIIINNNNNSSSSS")
         return self

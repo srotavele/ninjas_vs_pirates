@@ -1,3 +1,6 @@
+from classes.ninja import Ninja
+
+
 class Pirate:
     def __init__(self, name):
         self.name = name
@@ -32,4 +35,5 @@ class RumPirate(Pirate):
 
     def taunt(self, ninja):
         ninja.strength -= 5
-        print("you fight like my grandmother and she still fights better than you!")
+        print(
+            f"{ninja.name},you fight like my grandmother and she still fights better than you!")
